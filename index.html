@@ -7,61 +7,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+  <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
   <link rel="stylesheet" href="./css/style.css" />
   <title>Gajajyoti2k22</title>
 </head>
 
 <body>
   <div>
-    <div class="flex md:shrink-0 justify-center bg-black text-white space-x-8 navbar py-4 fixed top-0 left-0 right-0  ">
-      <a href="./index.html" class="text-sm md:text-base">Home</a>
-      <a href="./about.html" class="text-sm md:text-base">About</a>
-      <a href="./event.html" class="text-sm md:text-base">Events</a>
-      <a href="" class="text-sm md:text-base">Co-Ordinators</a>
+
+    <!-- Navbar -->
+    <header class="header">
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Co-Ordinators</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar -->
+
+
+
+    <div class="md:flex md:shrink-0 justify-center hero mt-8">
+      <img src="./images/logo.png" class="max-w-full h-auto" alt="" />
     </div>
-  </div>
-  <div class="md:flex md:shrink-0 justify-center hero mt-8">
-    <img src="./images/logo.png" class="max-w-full h-auto" alt="" />
-  </div>
-  <div class="flex justify-center">
-    <img src="./images/logo2.png" class="max-w-full h-auto" alt="" />
-  </div>
-
-  <div class=" banner flex justify-center text-2xl md:text-4xl font-extrabold bg-white p-4 ">
-    <h3 class="animate-charcter">30th March, 31st March and 1st April</h3>
-  </div>
-
-
-
-
-
-  <div class="flex flex-col items-center"> 
-    <h2 class="hero-txt text-5xl mt-20 mb-5">Events</h2>
-    <a href="./rules.html">
-      <p class="hero-txt text-3xl mt-2 mb-10 rule">Rules of Events</p>
-    </a>
-    <div class="grid  grid-cols-1 grid-rows-3 gap-4 sm:grid-cols-2 md:grid-cols-2 md:gap-8 m-4 max-w-sm md:max-w-3xl ">
-      <img src="./images/Culturalevent.png" class="border-solid border-4 border-black" alt="">
-      <img src="./images/managementevent.png" class="border-solid border-4 border-black" alt="">
-      <img src="./images/science.png" class="border-solid border-4 border-black" alt="">
-      <img src="./images/techevent.png" class="border-solid border-4 border-black " alt="">
-      <img src="./images/entrepreneurship .png" class="border-solid border-4 border-black" alt="">
-      <img src="./images/libraryevent.png" class="border-solid border-4 border-black " alt="">
+    <div class="flex justify-center">
+      <img src="./images/logo2.png" class="max-w-full h-auto" alt="" />
     </div>
 
+    <div class=" banner flex justify-center text-2xl md:text-4xl font-extrabold bg-white p-4 ">
+      <h3 class="animate-charcter">31st March,1st April and 2nd April</h3>
+    </div>
 
-
-  </div>
-
-  <footer class=" flex flex-col  md:shrink-0 items-center p-5 max-w-full bg-black text-white mb-0">
-    <p class="mb-4">CONNECT WITH US</p>
-    <a href="https://www.facebook.com/Gajajyoti-2020-101487234760137/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"  class="h-10 w-10 mb-4"/></a>
+    <!-- Gajajyoti Banner -->
     <div class="flex">
-      <p>2022 Copyright &copy; <a href="">Centurion University of Technology and Management</a> | All rights reserved.
-      </p>
+      <img src="./images/banner.jpg" alt="banner" class="mt-5">
     </div>
-  </footer>
-  <script src="./js/script.js"></script>
+
+
+    <!-- Events -->
+    <div class="flex flex-col items-center">
+      <h2 class="hero-txt text-5xl mt-20 mb-5">Events</h2>
+      <a href="./rules.html">
+        <p class="hero-txt text-3xl mt-2 mb-10 rule">Rules of Events</p>
+      </a>
+      <div
+        class="grid  grid-cols-1 grid-rows-3 gap-4 sm:grid-cols-2 md:grid-cols-2 md:gap-8 m-4 max-w-sm md:max-w-3xl ">
+        <img src="./images/Culturalevent.png" class="border-solid border-4 border-black" alt="">
+        <img src="./images/managementevent.png" class="border-solid border-4 border-black" alt="">
+        <img src="./images/science.png" class="border-solid border-4 border-black" alt="">
+        <img src="./images/techevent.png" class="border-solid border-4 border-black " alt="">
+        <img src="./images/entrepreneurship .png" class="border-solid border-4 border-black" alt="">
+        <img src="./images/libraryevent.png" class="border-solid border-4 border-black " alt="">
+      </div>
+     
+    </div>
+     <!-- Events -->
+
+
+
+    <footer class=" flex flex-col  md:shrink-0 items-center p-5 max-w-full bg-black text-white mb-0">
+      <p class="mb-4">CONNECT WITH US</p>
+      <a href="https://www.facebook.com/Gajajyoti-2020-101487234760137/" target="_blank"><img
+          src="https://img.icons8.com/fluency/48/000000/facebook-new.png" class="h-10 w-10 mb-4" /></a>
+      <div class="flex">
+        <p>2022 Copyright &copy; <a href="">Centurion University of Technology and Management</a> | All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 
 </html>
