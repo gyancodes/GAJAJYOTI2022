@@ -129,7 +129,7 @@ height: 100%;
     transform: translateY(-8px) rotate(-45deg);
   }
   body{
-    
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
