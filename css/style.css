@@ -128,8 +128,11 @@ height: 100%;
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  body{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
-.btn{
-  /* border-radius: 30px; */
-}
