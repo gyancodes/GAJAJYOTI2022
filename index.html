@@ -8,8 +8,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/slider.css">
   <title>Gajajyoti2k22</title>
 </head>
 
@@ -55,6 +56,8 @@
       <h3 class="animate-charcter">31st March,1st April and 2nd April</h3>
     </div>
 
+
+
     <!-- Gajajyoti Banner -->
     <div class="flex">
       <img src="./images/banner.jpg" alt="banner" class="mt-5">
@@ -93,12 +96,12 @@
 
 
 
-    
+
     <!-- Events -->
     <div class="flex flex-col items-center">
       <h2 class="hero-txt text-5xl mt-20 mb-5">Events</h2>
       <a href="./rules.html">
-        <p class="hero-txt text-3xl text-black">Rules of Event</p>
+        <p class="hero-txt text-3xl text-black hover:underline ">Rules of Event</p>
       </a>
       <div
         class="grid  grid-cols-1 grid-rows-3 gap-4 sm:grid-cols-2 md:grid-cols-2 md:gap-8 m-4 max-w-sm md:max-w-3xl ">
@@ -113,19 +116,82 @@
     </div>
     <!-- Events -->
 
-    <footer class=" flex flex-col  md:shrink-0 items-center p-2 max-w-full bg-black  text-white mb-0">
+    <!-- Slider -->
+    <div class="flex flex-col items-center p-2">
+      <h2 class="hero-txt mt-40 md:mt-10 text-sm md:text-2xl ">SOME MEMORABLE MOMENTS OF GAJAJYOTI2K19</h2>
+    
+    <div class="carousel-container ">
+     
+      <div class="mySlides animate">
+        <img src="./images/fest/1.jpg" alt="slide" />
+
+      </div>
+
+      <div class="mySlides animate">
+        <img src="./images/fest/2.JPG" alt="slide" />
+
+      </div>
+
+      <div class="mySlides animate">
+        <img src="./images/fest/3.JPG" alt="slide" />
+
+      </div>
+
+      <div class="mySlides animate">
+        <img src="./images/fest/4.JPG" alt="slide" />
+
+      </div>
+
+      <div class="mySlides animate">
+        <img src="./images/fest/5.JPG" alt="slide" />
+
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="prevSlide()">&#10094;</a>
+      <a class="next" onclick="nextSlide()">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div class="dots-container">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+        <span class="dots" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+
+    <div class=" bg-gradient-to-r from-sky-500 to-indigo-500 text-xs md:text-xl text-white p-2  md:p-4 mb-8  font-bold	rounded-full">
+      <a href=""><p>CLICK HERE TO REACH THE GALLERY OF GAJAJYOTI OF 2K19</p></a> 
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class=" flex flex-col  md:shrink-0 items-center p-2 max-w-full bg-black   text-white mb-0">
       <p class="mb-2 text-xs">CONNECT WITH US</p>
       <a href="https://www.facebook.com/Gajajyoti-2020-101487234760137/" target="_blank"><img
           src="https://img.icons8.com/fluency/48/000000/facebook-new.png" class="h-10 w-10 mb-2" /></a>
-      <div class="flex text-xs">
-        <p>2022 Copyright &copy; <a href="">Centurion University of Technology and Management</a> | All rights reserved.
+      <div class="flex text-xs ">
+        <p>2022 Copyright &copy; <a href="cutm.ac.in">Centurion University of Technology and Management</a> | All rights
+          reserved.
         </p>
       </div>
     </footer>
     <script src="./js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="./js/slider.js"></script>
+
+
 </body>
 
 </html>
