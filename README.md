@@ -1,2 +1,2 @@
 # GAJAJYOTI2022
-Repo of website for Annual Fest Gajajyoti at Centurion University of Technology and Management
+Repo for website of Annual Fest <b>Gajajyoti</b> at Centurion University of Technology and Management
