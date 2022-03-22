@@ -91,7 +91,7 @@ p{
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: white;
+    background: black;
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -100,9 +100,12 @@ p{
 }
 
 .nav .nav-menu{    
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.nav-link a{
+    color: white;
+}
 .nav .toggle-collapse{
     position: absolute;
     top: 0%;
