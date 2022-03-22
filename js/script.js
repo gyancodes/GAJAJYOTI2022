@@ -18,3 +18,10 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+
+const countdown = () => {
+    const countDate = new Date('March 31, 2022 00:00:00').getTime();
+    
+};
+
+countdown();
